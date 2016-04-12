@@ -8,24 +8,24 @@
 <h1>passward:</h1><br/>
 <input type="password" name="password" size="20"/><br/><br/>
 <br/><p id="false"></p>
-<input type="button" value="login" onclick="myfunction()">
+<input type="button" onclick="check(this.form)" value="Login"/>
+
 </for
 </div>
 
 </body>
  
- <script type="text/javascript">
-  Funtion myfunction(){
-  if((document.login.username.value=="as")&&(document.login.password.value=="as")) 
- window.open("www.yahoo.com");
-  else
-      {alert("Wrong Username or Password")
+<script language="javascript">
+ function check(form) { 
+if(form.a.value == "drahem" && form.b.value == "55555") {
+window.open("http://www.yahoo.com/","_self")
 }
+ else {
+ alert("Wrong Username or Password")
 }
-   
-  }
-  }
- </script>
+ }
+</script>
+
 
 
 </html>
